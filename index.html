@@ -8,6 +8,17 @@
     <title>Anita's Kitchen</title>
   </head>
   <body>
+    <div class="container-fluid banner">
+      <nav class="navbar">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data target="#Manu">
+              <span class="icon-bar"</span>
+              <span class="icon-bar"</span>
+              <span class="icon-bar"</span>
+            </button>
+            <a href="Anita's Kitchen">
+            </a>
       <div class="header">
     <div class="row">
         <div class="col-md-4">
@@ -28,74 +39,109 @@
         <div class="section">
         <div class="row">
             <div class="col-md-3">
-                <div class="menu-text">Happy Hour
+              <div class="row">
+                <div class="col-md-12">
+                  <h1>Happy Hour</h1>
                 </div>
-                  <div class="menu-text">Party Time
+              </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <h1>Party Hour</h2>
+                  </div>
                   </div>
               </div>
             <div class="col-md-3">
-          <img src="img/assets/foodtop/breakfast.jpg" alt="breakfast" width="300" height="200">
+          <img src="img/assets/foodtop/breakfast.jpg" alt="breakfast">
           <div class="menu-text">
             <p class="centered">Breakfast</p>
           </div>
           </div>
           <div class="col-md-3">
-          <img src="img/assets/foodtop/lunch.jpg" alt="lunch" width="300" height="200">
+          <img src="img/assets/foodtop/lunch.jpg" alt="lunch">
           <div class="menu-text">
             <p class="centered">Lunch</p>
           </div>
           </div>
           <div class="col-md-3">
-          <img src="img/assets/foodtop/dinner.jpg" alt="dinner" width="300" height="200">
+          <img src="img/assets/foodtop/dinner.jpg" alt="dinner">
         <div class="menu-text">
           <p class="centered">Dinner</p>
         </div>
         </div>
         </div>
-        <div class="articles1">
+        <div class="articles">
         <div class="row">
-          <div class="col-md-6">
-            <img src="img/assets/fastFood1.jpg" alt="fastFood1">
-            <img src="img/assets/fastFood2.jpg" alt="fastFood2">
-          </div>
-          <div class="col-md-6">
+          <div class="col-md-6 box">
             <h1>Fast Food</h1>
             <h2>You'll love our delicious fast food</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisic ing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in re prehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Exceteur sint occaecat cupi datat non proident</p>
+            <a href="#" class="default">VIEW GALLERY<span class="glyphicon glyphicon-arrow-right"></span>
+            </a>
+          </div>
+          <div class="col-md-6 box">
+            <div class="img thumbnail">
+              <div class="row">
+                <div class="col-md-6"><img src="img/assets/fastFood1.jpg" alt="fastFood1">
+                  <img src="img/assets/fastFood2.jpg" alt="fastFood2">
+            </div>
+          </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6 box">
             <h1>Drinks</h1>
-            <h2>We also produce delicious drinks</h2>
+            <h3>We also produce delicious drinks</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisic ing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in re prehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Exceteur sint occaecat cupi datat non proident</p>
+            <a href="#" class="default">VIEW GALLERY<span class="glyphicon glyphicon-arrow-right"></span>
+            </a>
           </div>
-          <div class="col-md-6">
-            <img src="img/assets/drink1.jpg" alt="drink1">  <img src="img/assets/drink2.jpg" alt="drink2">
+          <div class="col-md-6 box">
+            <div class="img thumbnail">
+              <div class="row">
+                <div class="col-md-6"><img src="img/assets/drink1.jpg" alt="drink1">
+              </div>
+              <div class="col-md-6"><img src="img/assets/drink2.jpg" alt="drink2">
+            </div>
+            </div>
           </div>
         </div>
       </div>
-        <div class="articles2">
-          <div class="titles">
-            Fast Foods        Drinks        Chicken     Rice
-          </div>
-        <div class="gallery">
-          <img src="img/assets/fastfood/chickenBurger.jpg" alt="chickenBurger" width="300" height="200">
-          <div class="desc">chickenBurger
-          </div>
+        <div class="container-fluid" id="showcase">
+          <div id="tabs">
+            <ul class="nav nav-tabs nav-justified">
+              <li class="active">
+                <a data toggle=pill href="#home">FastFood</a>
+              </li>
+              <li>
+                <a data toggle=pill href="#menu1">Drinks</a>
+              </li>
+              <li>
+                <a data toggle=pill href="#menu2">Chicken</a>
+              </li>
+              <li>
+                <a data toggle=pill href="#menu3">Rice</a>
+              </li>
+            </ul>
+            <div class="tab-content">
+              <div id="home" class="tb-pane fade in active">
+                <div class="row">
+                  <div class="col-md-4 food">
+                    <img src="img/assets/fastfood/chickenBurger.jpg" alt="chickenBurger">
+                    <h3>ChickenBurger</h3>
+                  </div>
+                  <div class="col-md-4 food">
+                    <img src="img/assets/fastfood/beefBurger.jpg" alt="beefBurger">
+                    <h3>BeefBurger</h3>
+                </div>
+                  <div class="col-md-4 food">
+                    <img src="img/assets/fastfood/chickenPizza.jpg" alt="chickenPizza">
+                    <h3>ChickenPizza</h3>
+            </div>
+            </div>
+            </div>
+            </div>
         </div>
-        <div class="gallery">
-            <img src="img/assets/fastfood/beefBurger.jpg" alt="beefBurger" width="300" height="200">
-          <div class="desc">beefBurger
-          </div>
-        </div>
-        <div class="gallery">
-            <img src="img/assets/fastfood/chickenPizza.jpg" alt="chickenPizza" width="300" height="200">
-          <div class="desc">chickenPizza
-          </div>
-        </div>
-        </div>
-        <div class="articles3">
+        <div class="container-fluid" id="customer">
           <div class="row">
             <div class="col-md-6">
               <h3>Our Happy</h3>
@@ -109,3 +155,24 @@
             </div>
           </div>
         </div>
+        <div class="container-fluid" id="subscribe">
+              <h2>Get our daily food items delivered to your email</h2>
+              <form action=""role="form" class="form-inline">
+                <input type="email"class="btn btn-transparent" placeholder="your email" class="form-input">
+                <input  type="submit"value="subscribe" class="btn btn-default">
+              </form>
+            </div>
+        <div class="container-fluid text-center" id="footer">
+          <h1>MENU
+          <img src="img/assets/footerlogos/logo_white.png">
+          </h1>
+         <h2>Thats What We Are</h2>
+         <h1>
+           <i class="fab fa-facebook"><img src="img/assets/footerlogos/facebook.png" alt=""></i>
+           <i class="fab fa-twitter"><img src="img/assets/footerlogos/twitter.png" alt=""></i>
+           <i class="fab fa-pintrest"><img src="img/assets/footerlogos/pinterest.png" alt=""></i>
+         </h1>
+         <p>2018 Menu Restaurant</p>
+         </div>
+       </body>
+       </html>

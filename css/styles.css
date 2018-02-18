@@ -9,23 +9,30 @@
     font-style: italic;
     color: white;
 }
-.articles1{
-    padding: 50px;
-}
-div.gallery {
-    margin: 5px;
-    border: 1px;
-    float: left;
-    width: 180px;
-}
-div.gallery img {
-    width: 100%;
-    height: auto;
-}
-.articles2{
+.active{
   background-image: url("../img/assets/backgrounds/foodsBg.jpg");
   background-repeat: no-repeat;
   background-attachment:fixed;
-  height: 90vh;
+  height: 45vh;
   width: 100vw;
+}
+#subscribe{
+  background-image: url("../img/assets/backgrounds/subscribe.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 40vh;
+  width:100vw;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+#footer{
+  background-color: orange;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 50vh;
+  width: 100vw;
+  font-size: 20px;
+  color: white;
+  text-align: center;
 }

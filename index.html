@@ -3,23 +3,22 @@
   <head>
     <link href="css/bootstrap.css"= rel="stylesheet" type="text/css">
     <link href="css/styles.css"= rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
     <title>Anita's Kitchen</title>
   </head>
-  <body>
-    <div class="container-fluid banner">
-      <nav class="navbar">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data target="#Manu">
-              <span class="icon-bar"</span>
-              <span class="icon-bar"</span>
-              <span class="icon-bar"</span>
-            </button>
-            <a href="Anita's Kitchen">
-            </a>
+    <body>
       <div class="header">
+      <i id="open-menu" class="ion-navicon"></i>
+      <aside>
+        <i id="close-menu" class="ion-close"></i>
+      <ul id="the-menu">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </aside>
     <div class="row">
         <div class="col-md-4">
         </div>
@@ -27,8 +26,8 @@
           <div class="logo">
             <img src="img/assets/logoBig.png">
           </div>
-          <div class="menu-text">
-              <p class="centered">We provide the best food</p>
+          <div id="menu-text">
+              <p>We provide the best food</p>
               <p>At the <strong>Right Price<strong></p>
           </div>
         </div>
@@ -41,12 +40,12 @@
             <div class="col-md-3">
               <div class="row">
                 <div class="col-md-12">
-                  <h1>Happy Hour</h1>
+                  <h3>Happy Hour</h3>
                 </div>
               </div>
                 <div class="row">
-                  <div class="col-md-12">
-                    <h1>Party Time</h2>
+                  <div class="col-md-12" id="party-time">
+                    <h3>Party Time</h3>
                   </div>
                   </div>
               </div>
@@ -79,7 +78,6 @@
             </a>
           </div>
           <div class="col-md-6 box">
-            <div class="img thumbnail">
               <div class="row">
                 <div class="col-md-6"><img src="img/assets/fastFood1.jpg" alt="fastFood1">
                   <img src="img/assets/fastFood2.jpg" alt="fastFood2">
@@ -96,11 +94,10 @@
             </a>
           </div>
           <div class="col-md-6 box">
-            <div class="img thumbnail">
               <div class="row">
-                <div class="col-md-6"><img src="img/assets/drink1.jpg" alt="drink1">
+                <div class="col-md-4"><img src="img/assets/drink1.jpg" alt="drink1">
               </div>
-              <div class="col-md-6"><img src="img/assets/drink2.jpg" alt="drink2">
+              <div class="col-md-4"><img src="img/assets/drink2.jpg" alt="drink2">
             </div>
             </div>
           </div>
